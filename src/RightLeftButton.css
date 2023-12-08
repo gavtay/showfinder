@@ -1,0 +1,11 @@
+.container-scroll-btn {
+    font-size: xx-large;
+    color: #8b8b8b;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container-scroll-btn:hover {
+    color: #262626;
+}

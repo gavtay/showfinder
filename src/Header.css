@@ -1,0 +1,35 @@
+#header-container {
+    height: 10vh;
+    width: 100%;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+#header-title {
+    color: #fff;
+    margin-left: 25px;
+}
+
+#header-search-container {
+    display: flex;
+    align-items: center;
+}
+#header-search-icon {
+    margin-right: 25px;
+    font-size: large;
+    background-color: #262626;
+    border: none;
+    cursor: pointer;
+}
+#header-search-bar {
+    height: 5vh;
+    width: 20vw;
+    margin-right: 25px;
+    color: white;
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+}

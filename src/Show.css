@@ -1,0 +1,27 @@
+#show-container {
+    width: 15%;
+    /* color: white; */
+    color: #262626;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#show-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+#show-btn:hover {
+    height: 86%
+}
+#cover-image {
+    margin-top: 5%;
+    width: 90%;
+}
+.display-data-show {
+    color: #8b8b8b;
+    /* color: #262626; */
+}

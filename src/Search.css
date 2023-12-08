@@ -1,0 +1,18 @@
+#search-container {
+    margin: 5%;
+    color: #262626;
+    background-color: transparent;
+    border-radius: 8px;
+}
+#search-header-container {
+    display: flex;
+    align-items: center;
+}
+#search-header {
+    margin-left: 2.5%;
+}
+#display-shows-container {
+    margin: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
