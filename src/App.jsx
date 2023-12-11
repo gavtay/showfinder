@@ -1,11 +1,14 @@
+import ProfileSelect from './ProfileSelect.jsx'
 import Header from './Header.jsx';
 import Mainview from './Mainview.jsx';
 
 function App() {
   return (
     <>
-      <Header />
-      <Mainview />
+      <ProfileSelect />
+
+      {/* <Header /> */}
+      {/* <Mainview /> */}
     </>
   );
 }

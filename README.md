@@ -27,7 +27,9 @@ To get a copy of this project up and running on your local machine, follow these
    ``` npm install ```
 4. **Run the Application:**
    ``` npm start ```
-   The app will be served at `http://localhost:3000` by default.
+5. **Install font-awesome:**
+   ```https://stackoverflow.com/questions/48002619/cound-not-find-icon-react-fontawesome```
+   The app will be served at `http://localhost:5173` by default.
 
 ## Usage
 

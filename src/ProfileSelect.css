@@ -1,0 +1,11 @@
+#profile-select-container {
+    height: 75vh;
+    width:100vw;
+    background-color: #76a175;
+}
+
+#profiles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
