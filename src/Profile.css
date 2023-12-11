@@ -1,7 +1,7 @@
 #profile-container {
     margin: 2%;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 #profile-btn {

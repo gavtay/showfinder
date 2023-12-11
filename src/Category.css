@@ -1,6 +1,9 @@
 #category-container {
     height: 80%;
-    margin: 5%;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
     background-color: transparent;
 }
 #category-header-container{

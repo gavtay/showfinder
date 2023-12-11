@@ -7,8 +7,8 @@ function App() {
     <>
       <ProfileSelect />
 
-      {/* <Header /> */}
-      {/* <Mainview /> */}
+      {/* <Header />
+      <Mainview /> */}
     </>
   );
 }
