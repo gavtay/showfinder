@@ -1,4 +1,4 @@
-const searchShows = (state = '', action) => {
+const searchShowsReducer = (state = '', action) => {
     switch(action.type) {
         case 'UPDATESEARCH':
             return action.searchEvent
@@ -6,4 +6,4 @@ const searchShows = (state = '', action) => {
             return state
     }
 }
-export default searchShows;
+export default searchShowsReducer;

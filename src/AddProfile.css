@@ -3,9 +3,7 @@
 }
 
 #addprofile-btn {
-    height: 10vh;
+    height: 20vh;
     width: 10vw;
-    margin-left: 5%;
-    margin-right: 2.5%;
     cursor: pointer;
 }

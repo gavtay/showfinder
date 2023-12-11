@@ -1,16 +1,18 @@
 import scrollPopularReducer from './showPopularScroll';
-import scrollNewReducer from './showNewScroll';
+import selectProfileReducer from './selectProfile';
 import scrollMostReducer from './showMostScroll';
+import scrollNewReducer from './showNewScroll';
 import showDetailsReducer from './showDetails';
-import searchShows from './searchShows';
+import searchShowsReducer from './searchShows';
 
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
     scrollPop: scrollPopularReducer,
+    selectProf: selectProfileReducer,
     scrollNew: scrollNewReducer,
     scrollMost: scrollMostReducer,
     showDet: showDetailsReducer,
-    searchShows
+    searchShows: searchShowsReducer
 });
 export default allReducers;

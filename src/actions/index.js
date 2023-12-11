@@ -1,3 +1,10 @@
+export const selectprofile = (profileName) => {
+    return {
+        type: 'SELECTPROFILE',
+        name: profileName
+    }
+}
+
 export const scrollrightpop = () => {
     return {
         type: 'SCROLLRIGHTPOP'

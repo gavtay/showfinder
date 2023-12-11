@@ -13,12 +13,9 @@ import show_img_1009 from './cover_images/naruto_cover.jpg';
 import {data} from './moviedata.js';
 import './ShowDetails.css';
 
-// let {data} = require('./moviedata.js');
-
 function ShowDetails() {
     const showDet = useSelector(state => state.showDet);
     const dispatch = useDispatch();
-    console.log(showDet);
 
     let showImgUrl;
     if (showDet === '1000') {
@@ -60,8 +57,6 @@ function ShowDetails() {
             return obj;
         }
     })
-
-    console.log(newObj);
 
     return (
         <>
