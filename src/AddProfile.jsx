@@ -1,11 +1,23 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import './AddProfile.css';
+
+const profilePlus = <FontAwesomeIcon id="plus-icon" icon={faPlus} style={{color: "#000000", fontSize: "xx-large"}} />
 
 function AddProfile() {
     return (
         <>
-            <div>
-                <button><img src='./profile_images/ProfilePlus.png' alt='plus'/></button>
-                <h4>Add Profile</h4> 
+            <div id='addprofile-container'>
+                <button
+                    id='addprofile-btn'
+                >
+                    <p 
+                        id='Addprofile-btn-icon'
+                    > 
+                        {profilePlus}
+                    </p>
+                </button>
+                <h3>Add Profile</h3> 
             </div>
         </>
     )

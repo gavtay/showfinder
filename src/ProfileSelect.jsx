@@ -6,7 +6,7 @@ function ProfileSelect() {
     return (
         <>
             <div id="profile-select-container">
-                <h1>Select Your Profile</h1>
+                <h1 id='profile-select-header'>Select Your Profile</h1>
                 <div id='profiles-container'>
                     <Profile />
                     <AddProfile />
