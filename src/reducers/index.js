@@ -1,3 +1,4 @@
+import showProfileDropdownMenuReducer from './showProfileDropdownMenu';
 import scrollPopularReducer from './showPopularScroll';
 import selectProfileReducer from './selectProfile';
 import scrollMostReducer from './showMostScroll';
@@ -13,6 +14,7 @@ const allReducers = combineReducers({
     scrollNew: scrollNewReducer,
     scrollMost: scrollMostReducer,
     showDet: showDetailsReducer,
-    searchShows: searchShowsReducer
+    searchShows: searchShowsReducer,
+    showProfileDrop: showProfileDropdownMenuReducer
 });
 export default allReducers;

@@ -4,6 +4,17 @@ export const selectprofile = (profileName) => {
         name: profileName
     }
 }
+export const signoutprofile = () => {
+    return {
+        type: 'SIGNOUTPROFILE'
+    }
+}
+
+export const showprofiledropdownmenu = () => {
+    return {
+        type: 'SHOWPROFILEDROPDOWNMENU'
+    }
+}
 
 export const scrollrightpop = () => {
     return {
