@@ -1,3 +1,16 @@
+export const showcreateprofile = () => {
+    return {
+        type: 'SHOWCREATEPROFILE'
+    }
+}
+
+export const addprofile = (name) => {
+    return {
+        type: 'ADDPROFILE',
+        name: name
+    }
+}
+
 export const selectprofile = (profileName) => {
     return {
         type: 'SELECTPROFILE',

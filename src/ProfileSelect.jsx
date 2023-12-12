@@ -1,8 +1,20 @@
 import Profile from './Profile.jsx';
 import AddProfile from './AddProfile.jsx';
+import CreateProfile from './CreateProfile.jsx';
+import { useSelector } from 'react-redux';
 import './ProfileSelect.css';
 
 function ProfileSelect() {
+    const createProfile = useSelector(state => state.showCreateProfile);
+
+    function checkCreateProfile() {
+        if (createProfile) {
+            return (
+                <CreateProfile />
+            )
+        }
+    }
+
     return (
         <>
             <div id="profile-select-container">
@@ -12,6 +24,7 @@ function ProfileSelect() {
                     <AddProfile />
                 </div>
             </div>
+            {checkCreateProfile()}
         </>
     )
 }
