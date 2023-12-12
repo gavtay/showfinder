@@ -46,9 +46,10 @@
     margin-left: 80vw;
     position: fixed;
     top: 10vh;
-    background-color: #c1c1c1;
-    border-left: 1px solid #262626;
-    border-bottom: 1px solid #262626;
+    background-color: #262626;
+    border-top: 2px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+    border-left: 2px solid #c1c1c1;
     text-align: center;
 }
 .profile-dropdown-line {
@@ -57,11 +58,12 @@
     background-color: #262626;
 }
 #profile-dropdown-hello {
+    color: #ffffff;
     font-size: medium;
-    font-weight: bold;
 }
 #profile-dropdown-signout {
     margin: 5%;
+    color: #ffffff;
     font-size: medium;
     font-weight: 400;
     background-color: transparent;
