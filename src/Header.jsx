@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';
-import { updateSearch, signoutprofile, showprofiledropdownmenu } from './actions';
+import { updateSearch, signoutprofile, showprofiledropdownmenu, closedetails} from './actions';
 import './Header.css';
 
 const checkBtn = <FontAwesomeIcon id="search-icon" icon={faSearch} style={{color: "#ffffff"}} />
@@ -15,7 +15,8 @@ function searchInputChange(event, dispatch) {
 function Header() {
     const searchShows = useSelector(state => state.searchShows);
     const profileSelect = useSelector(state => state.selectProf);
-    const dropDown = useSelector(state => state.showProfileDrop)
+    const dropDown = useSelector(state => state.showProfileDrop);
+    const closeDetails = useSelector(state => state.showDet);
     const dispatch = useDispatch();
     
     
@@ -44,7 +45,8 @@ function Header() {
 
     function signOut() {
         dispatch(signoutprofile());
-        dispatch(showprofiledropdownmenu())
+        dispatch(showprofiledropdownmenu());
+        dispatch(closedetails());
     }
 
     return (
