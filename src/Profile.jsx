@@ -1,18 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch } from 'react-redux';
-import './Profile.css';
 import { selectprofile } from './actions';
+import './Profile.css';
 
 const profileUser = <FontAwesomeIcon id="plus-icon" icon={faUser} style={{color: "#000000", fontSize: "xx-large"}} />
 
-function Profile() {
-    let profileName = 'Bob';
+function Profile({ name }) {
     const dispatch = useDispatch();
 
     const profileSelected = () => {
-        console.log(profileName);
-        dispatch(selectprofile(profileName));
+        dispatch(selectprofile(name));
     }
 
     return (
@@ -29,7 +27,7 @@ function Profile() {
                         {profileUser}
                     </p>
                 </button>
-                <h3>{profileName}</h3>
+                <h3>{name}</h3>
             </div>
         </>
     )

@@ -9,6 +9,11 @@ export const profileinput = (event) => {
         type: 'PROFILEINPUT',
         event: event
     }
+}
+export const clearprofileinput = () => {
+    return {
+        type: 'CLEARPROFILEINPUT'
+    }
 }  
 
 export const addprofile = (name) => {

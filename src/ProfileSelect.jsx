@@ -6,6 +6,31 @@ import './ProfileSelect.css';
 
 function ProfileSelect() {
     const createProfile = useSelector(state => state.showCreateProfile);
+    const profileArray = useSelector(state => state.userProfileArray);
+
+    function populateProfiles() {
+        return (
+            <>
+                {
+                    profileArray.map((ele) => (
+                        <Profile name={ele} />
+                    ))
+                }
+            </>
+        )
+    }
+
+    function populateAddProfile() {
+        let arrayLength = profileArray.length;
+
+        if (arrayLength < 5) {
+            return (
+                <>
+                    <AddProfile />
+                </>
+            )
+        }
+    }
 
     function checkCreateProfile() {
         if (createProfile) {
@@ -20,8 +45,8 @@ function ProfileSelect() {
             <div id="profile-select-container">
                 <h1 id='profile-select-header'>Select Your Profile</h1>
                 <div id='profiles-container'>
-                    <Profile />
-                    <AddProfile />
+                    {populateProfiles()}
+                    {populateAddProfile()}
                 </div>
             </div>
             {checkCreateProfile()}

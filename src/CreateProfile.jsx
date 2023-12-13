@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { showcreateprofile, profileinput, addprofile} from './actions';
+import { showcreateprofile, profileinput, addprofile, clearprofileinput } from './actions';
 import './CreateProfile.css';
 
 function CreateProfile() {
@@ -8,6 +8,8 @@ function CreateProfile() {
 
     function addNewProfile() {
         dispatch(addprofile(profileInp));
+        dispatch(showcreateprofile());
+        dispatch(clearprofileinput());
     }
 
     return (
@@ -27,6 +29,7 @@ function CreateProfile() {
                         <input
                             id='create-profile-input'
                             type='text'
+                            maxLength={30}
                             value={profileInp}
                             placeholder='Profile Name'
                             onChange={(event)=>dispatch(profileinput(event.target.value))}>
