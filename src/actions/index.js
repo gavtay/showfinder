@@ -4,6 +4,13 @@ export const showcreateprofile = () => {
     }
 }
 
+export const profileinput = (event) => {
+    return {
+        type: 'PROFILEINPUT',
+        event: event
+    }
+}  
+
 export const addprofile = (name) => {
     return {
         type: 'ADDPROFILE',

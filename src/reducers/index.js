@@ -6,10 +6,10 @@ import scrollMostReducer from './showMostScroll';
 import scrollNewReducer from './showNewScroll';
 import showDetailsReducer from './showDetails';
 import searchShowsReducer from './searchShows';
-import shhowCreateProfileRedcuer from './showCreateProfile';
+import showCreateProfileReducer from './showCreateProfile';
+import profileInputReducer from './profileInput';
 
 import { combineReducers } from 'redux';
-import showCreateProfileReducer from './showCreateProfile';
 
 const allReducers = combineReducers({
     scrollPop: scrollPopularReducer,
@@ -20,6 +20,7 @@ const allReducers = combineReducers({
     searchShows: searchShowsReducer,
     userProfileArray: userProfileArrayReducer,
     showProfileDrop: showProfileDropdownMenuReducer,
-    showCreateProfile: showCreateProfileReducer
+    showCreateProfile: showCreateProfileReducer,
+    profileInput: profileInputReducer
 });
 export default allReducers;

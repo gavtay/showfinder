@@ -1,9 +1,14 @@
-import { useDispatch } from 'react-redux';
-import { showcreateprofile } from './actions';
+import { useDispatch, useSelector } from 'react-redux';
+import { showcreateprofile, profileinput, addprofile} from './actions';
 import './CreateProfile.css';
 
 function CreateProfile() {
+    const profileInp = useSelector(state => state.profileInput);
     const dispatch = useDispatch();
+
+    function addNewProfile() {
+        dispatch(addprofile(profileInp));
+    }
 
     return (
         <>
@@ -19,10 +24,16 @@ function CreateProfile() {
                         </button>
                     </div>
                     <div id='create-profile-input-container'>
-                        <input id='create-profile-input' placeholder='Profile Name'></input>
+                        <input
+                            id='create-profile-input'
+                            type='text'
+                            value={profileInp}
+                            placeholder='Profile Name'
+                            onChange={(event)=>dispatch(profileinput(event.target.value))}>
+                        </input>
                         <button
                             id='create-profile-submit-btn'
-                            // onClick={()=>dispatch(whatever is in the input)}
+                            onClick={addNewProfile}
                         >
                             Submit
                         </button>

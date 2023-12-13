@@ -38,7 +38,6 @@ function Showallshows() {
             <div id='search-container'>
                 <div id='search-header-container'>
                     <h2 id='search-header'>Search</h2>
-
                 </div>
                 <div id='display-shows-container'>
                     {populateShowsInSearch()}
