@@ -12,16 +12,17 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 #show-btn:hover {
-    height: 86%
+    height: 86%;
+    /* margin-top: 12%; */
 }
 #cover-image {
     margin-top: 5%;
-    width: 90%;
+    height: 38vh;
+    /* width: 90%; */
 }
 .display-data-show {
     color: #8b8b8b;
-    /* color: #262626; */
 }

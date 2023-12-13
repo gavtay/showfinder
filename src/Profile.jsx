@@ -6,13 +6,14 @@ import './Profile.css';
 
 const profileUser = <FontAwesomeIcon id="plus-icon" icon={faUser} style={{color: "#000000", fontSize: "xx-large"}} />
 
-function Profile({ name }) {
+function Profile({ name, index }) {
     const dispatch = useDispatch();
 
     const profileSelected = () => {
         dispatch(selectprofile(name));
     }
 
+    
     return (
         <>
             <div id='profile-container'>
@@ -28,6 +29,11 @@ function Profile({ name }) {
                     </p>
                 </button>
                 <h3>{name}</h3>
+                <button
+                    id='profile-delete-btn'
+                    // onClick={dispatch(deleteprofile(index))}
+                    >X
+                </button>
             </div>
         </>
     )

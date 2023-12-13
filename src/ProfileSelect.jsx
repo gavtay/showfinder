@@ -12,8 +12,8 @@ function ProfileSelect() {
         return (
             <>
                 {
-                    profileArray.map((ele) => (
-                        <Profile name={ele} />
+                    profileArray.map((ele, index) => (
+                        <Profile name={ele} index={index}/>
                     ))
                 }
             </>

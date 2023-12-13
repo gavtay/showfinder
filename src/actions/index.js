@@ -35,6 +35,13 @@ export const signoutprofile = () => {
     }
 }
 
+export const deleteprofile = (id) => {
+    return {
+        type: 'DELETEPROFILE',
+        remove: id
+    }
+}
+
 export const showprofiledropdownmenu = () => {
     return {
         type: 'SHOWPROFILEDROPDOWNMENU'

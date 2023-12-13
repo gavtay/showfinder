@@ -5,5 +5,26 @@
 #profile-btn {
     height: 20vh;
     width: 10vw;
+    background-color: #7eeff3;
+    border: 1px solid #000;
+    border-radius: 2px;
     cursor: pointer;
+    transition: 0.5s;
+}
+#profile-btn:hover {
+    margin-top: 12%;
+}
+
+#profile-delete-btn {
+    height: 10vh;
+    width: 6vw;
+    color: #c4c4c4;
+    font-size: x-large;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+#profile-delete-btn:hover {
+    color: #ff0000;
 }
