@@ -22,6 +22,17 @@ export const addprofile = (name) => {
         name: name
     }
 }
+export const showdeleteprofilebox = () => {
+    return {
+        type: 'SHOWDELETEPROFILEBOX'
+    }
+}
+export const deleteprofilename = (name) => {
+    return {
+        type: 'DELETEPROFILENAME',
+        name: name
+    }
+}
 export const deleteprofile = (name) => {
     return {
         type: 'DELETEPROFILE',

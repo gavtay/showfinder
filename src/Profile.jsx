@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch } from 'react-redux';
-import { selectprofile, deleteprofile } from './actions';
+import { selectprofile, deleteprofilename, showdeleteprofilebox } from './actions';
 import './Profile.css';
 
 const profileUser = <FontAwesomeIcon id="plus-icon" icon={faUser} style={{color: "#000000", fontSize: "xx-large"}} />
@@ -31,7 +31,10 @@ function Profile({ name, index }) {
                 <h3>{name}</h3>
                 <button
                     id='profile-delete-btn'
-                    onClick={()=>dispatch(deleteprofile(name))}
+                    onClick={()=> {
+                        dispatch(showdeleteprofilebox())
+                        dispatch(deleteprofilename(name))
+                    }}
                     >X
                 </button>
             </div>

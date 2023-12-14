@@ -29,7 +29,7 @@ function CreateProfile() {
                         <input
                             id='create-profile-input'
                             type='text'
-                            maxLength={30}
+                            maxLength={10}
                             value={profileInp}
                             placeholder='Profile Name'
                             onChange={(event)=>dispatch(profileinput(event.target.value))}>

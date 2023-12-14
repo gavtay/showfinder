@@ -11,7 +11,7 @@
 #create-profile-main {
     height: 60vh;
     width: 70vw;
-    background-color: #b0b0b0;
+    background-color: #c1b4f5;
     border: 2px solid #000000;
     border-radius: 8px;
 } 
@@ -50,6 +50,8 @@
     height: 8vh;
     width: 40vw;
     font-size: large;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
 }
 #create-profile-submit-btn {
     height: 8vh;
