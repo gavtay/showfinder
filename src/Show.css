@@ -20,8 +20,8 @@
 }
 #cover-image {
     margin-top: 5%;
-    height: 38vh;
-    /* width: 90%; */
+    /* height: 38vh; */
+    width: 100%;
 }
 .display-data-show {
     color: #8b8b8b;

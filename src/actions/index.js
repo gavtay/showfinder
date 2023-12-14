@@ -22,6 +22,12 @@ export const addprofile = (name) => {
         name: name
     }
 }
+export const deleteprofile = (name) => {
+    return {
+        type: 'DELETEPROFILE',
+        name: name
+    }
+}
 
 export const selectprofile = (profileName) => {
     return {
@@ -32,13 +38,6 @@ export const selectprofile = (profileName) => {
 export const signoutprofile = () => {
     return {
         type: 'SIGNOUTPROFILE'
-    }
-}
-
-export const deleteprofile = (id) => {
-    return {
-        type: 'DELETEPROFILE',
-        remove: id
     }
 }
 

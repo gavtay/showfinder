@@ -8,7 +8,6 @@ import showDetailsReducer from './showDetails';
 import searchShowsReducer from './searchShows';
 import showCreateProfileReducer from './showCreateProfile';
 import profileInputReducer from './profileInput';
-import deleteProfileReducer from './deleteProfile';
 
 import { combineReducers } from 'redux';
 
@@ -23,6 +22,5 @@ const allReducers = combineReducers({
     showProfileDrop: showProfileDropdownMenuReducer,
     showCreateProfile: showCreateProfileReducer,
     profileInput: profileInputReducer,
-    deleteProfile: deleteProfileReducer
 });
 export default allReducers;
