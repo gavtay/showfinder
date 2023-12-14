@@ -7,9 +7,11 @@ function CreateProfile() {
     const dispatch = useDispatch();
 
     function addNewProfile() {
-        dispatch(addprofile(profileInp));
-        dispatch(showcreateprofile());
-        dispatch(clearprofileinput());
+        if (profileInp) {            
+            dispatch(addprofile(profileInp));
+            dispatch(showcreateprofile());
+            dispatch(clearprofileinput());
+        }
     }
 
     return (
