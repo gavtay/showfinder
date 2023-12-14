@@ -22,15 +22,26 @@ function Showallshows() {
             }
         })
 
-        return (
-            <>
-                {
-                    dataObj.map((obj) => (
-                        <Show key={obj.id} showObj={obj} title={emptyStr}/>
-                    )) 
-                }
-            </>
-        )
+        if (dataObj.length === 0) {
+            return (
+                <>
+                    <div id='search-no-shows-container'>
+                        <p id='search-no-shows-header'>No shows in the database match your description...</p>
+                    </div>
+                </>
+            )
+        }
+        else {
+            return (
+                <>
+                    {
+                        dataObj.map((obj) => (
+                            <Show key={obj.id} showObj={obj} title={emptyStr}/>
+                        )) 
+                    }
+                </>
+            )
+        }
     }
 
     return(

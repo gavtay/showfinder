@@ -19,3 +19,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+#search-no-shows-container {
+    margin-top: 20vh;
+    font-size: larger;
+    font-weight: bold;
+}
