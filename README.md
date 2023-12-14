@@ -1,9 +1,10 @@
 # showsfinder
 
-Welcome to ShowFinder - your go-to platform for discovering and exploring various shows! This web application, built using React with JavaScript and Redux, allows users to easily browse, search, and access details about different shows based on categories.
+Welcome to ShowsFinder - your go-to platform for discovering and exploring various shows! This web application, built using React with JavaScript and Redux, allows users to create profiles to easily browse, search, and access details about different shows based on various categories.
 
 ## Features
 
+- **Create & Manage Profiles:** Create and delete profiles seamlessly.
 - **Show Categories:** Sorts shows into various categories for easy navigation.
 - **Show Details:** Click on individual shows to view comprehensive details.
 - **Search Functionality:** Quickly find shows by typing keywords into the search bar.
@@ -16,6 +17,12 @@ Welcome to ShowFinder - your go-to platform for discovering and exploring variou
 - Redux
 
 ## Getting Started
+
+Either go online to:
+
+``` https://gavtay.github.io/showsfinder ```
+
+OR
 
 To get a copy of this project up and running on your local machine, follow these steps:
 
