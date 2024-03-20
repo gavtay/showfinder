@@ -85,7 +85,7 @@ function ShowDetails() {
                     <div id='details-lower-container'>
                         <p className='details-show-info'>Popularity Rating: {newObj[0].popularity}</p>
                         <p className='details-show-info'>Summary: Pretend there is a summary here... I didn't feel like writing or finding a short one...</p>
-                        <p className='details-show-info'>Link to more info: <a href={newObj[0].link} id='details-show-link' className='details-show-info'>Click Here</a></p>
+                        <p className='details-show-info'>Link to more info: <a href={newObj[0].link} id='details-show-link' className='details-show-info' target='_blank' rel='noopener noreferrer'>Click Here</a></p>
                     </div>
                 </div>
             </div>
