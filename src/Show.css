@@ -1,13 +1,16 @@
-#show-container {
+.show-container {
     width: 15%;
-    /* color: white; */
     color: #262626;
     background-color: transparent;
+    border-radius: 6px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: start;
     text-align: center;
+    transition: 0.5s;
 }
+
 #show-btn {
     background-color: transparent;
     border: none;
@@ -16,12 +19,14 @@
 }
 #show-btn:hover {
     height: 86%;
-    /* margin-top: 12%; */
 }
 #cover-image {
     margin-top: 5%;
-    /* height: 38vh; */
     width: 100%;
+}
+
+.show-info-p {
+    margin: 0;
 }
 .display-data-show {
     color: #8b8b8b;

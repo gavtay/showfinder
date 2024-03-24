@@ -8,6 +8,8 @@
     margin-top: 25vh;
 }
 #profiles-container {
+    height: 40vh;
     display: flex;
     justify-content: center;
+    /* border: 2px solid red; */
 }

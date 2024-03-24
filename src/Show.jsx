@@ -77,7 +77,7 @@ function Show({ showObj, title }) {
 
     return (
         <>
-            <div id='show-container'>
+            <div className='show-container'>
                 <button
                     id='show-btn'
                     onClick={toggleDetails}>
@@ -87,8 +87,8 @@ function Show({ showObj, title }) {
                         alt={showObj.id}
                     />
                 </button>
-                <div>
-                    <p>{showObj.title}</p>
+                <div className='show-info'>
+                    <p className='show-info-p'>{showObj.title}</p>
                     {displayDataForShow(title, showObj)}
                 </div>
             </div>

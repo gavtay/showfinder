@@ -18,10 +18,10 @@ function DeleteProfileBox() {
                 <>
                     <div id='show-profile-box-container'>
                         <div id='show-profile-delete-container'>
-                            <h2>Delete this profile?</h2>
+                            <h2 id='profile-delete-box-header'>Delete this profile?</h2>
                             <div id='show-profile-delete-btn-container'>
                                 <button 
-                                    id='btn'
+                                    className='btn'
                                     onClick={()=> {
                                         dispatch(deleteprofile(delProfileName))
                                         dispatch(showdeleteprofilebox())
@@ -30,7 +30,7 @@ function DeleteProfileBox() {
                                     {checkBtn}
                                 </button>
                                 <button 
-                                    id='btn'
+                                    className='btn'
                                     onClick={()=>dispatch(showdeleteprofilebox())}
                                 >
                                     {xBtn}
