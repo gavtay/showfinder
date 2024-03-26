@@ -1,6 +1,6 @@
-# showsfinder
+# showfinder
 
-Welcome to ShowsFinder - your go-to platform for discovering and exploring various shows! This web application, built using React with JavaScript and Redux, allows users to create profiles to easily browse, search, and access details about different shows based on various categories.
+Welcome to showfinder - your go-to platform for discovering and exploring various shows! This web application, built using React with JavaScript and Redux, allows users to create profiles to easily browse, search, and access details about different shows based on various categories.
 
 ## Features
 
@@ -20,7 +20,7 @@ Welcome to ShowsFinder - your go-to platform for discovering and exploring vario
 
 Either go online to:
 
-``` https://gavtay.github.io/showsfinder ```
+``` https://gavtay.github.io/showfinder ```
 
 OR
 
@@ -29,14 +29,16 @@ To get a copy of this project up and running on your local machine, follow these
 1. **Clone the Repository:**
    
 2. **Navigate to the Project Directory:**
-   ``` cd shows-react ```
+   ``` cd showfinder ```
 3. **Install Dependencies:**
    ``` npm install ```
-4. **Run the Application:**
-   ``` npm start ```
-5. **Install font-awesome:**
+4. **Install font-awesome:**
    ```https://stackoverflow.com/questions/48002619/cound-not-find-icon-react-fontawesome```
-   The app will be served at `http://localhost:5173` by default.
+5. **Build the Application:**
+   ``` npm run build ```
+6. **Run the Application Locally:**
+   ``` npm run dev ```
+   ``` http://localhost:5173/ ```
 
 ## Usage
 
@@ -47,7 +49,3 @@ To get a copy of this project up and running on your local machine, follow these
 ## Credits
 
 This project was created and is maintained by gavtay.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
