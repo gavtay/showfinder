@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { showcreateprofile, profileinput, addprofile, clearprofileinput } from './actions';
+import { showcreateprofile, profileinput, addprofile, clearprofileinput } from '../actions';
 import './CreateProfile.css';
 
 function CreateProfile() {

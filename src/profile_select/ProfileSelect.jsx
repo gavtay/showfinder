@@ -1,7 +1,7 @@
 import Profile from './Profile.jsx';
 import AddProfile from './AddProfile.jsx';
 import CreateProfile from './CreateProfile.jsx';
-import DeleteProfileBox from './DeleteProfileBox.jsx';
+import DeleteProfileBox from '../main_view/DeleteProfileBox.jsx';
 import { useSelector } from 'react-redux';
 import './ProfileSelect.css';
 

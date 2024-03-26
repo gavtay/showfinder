@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch } from 'react-redux';
-import { selectprofile, deleteprofilename, showdeleteprofilebox } from './actions';
+import { selectprofile, deleteprofilename, showdeleteprofilebox } from '../actions';
 import './Profile.css';
 
 const profileUser = <FontAwesomeIcon id="plus-icon" icon={faUser} style={{color: "#000000", fontSize: "xx-large"}} />

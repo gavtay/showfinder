@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
-import Header from './Header.jsx';
-import Mainview from './Mainview.jsx';
-import ProfileSelect from './ProfileSelect.jsx';
+import Header from './main_view/Header.jsx';
+import Mainview from './main_view/Mainview.jsx';
+import ProfileSelect from './profile_select/ProfileSelect.jsx';
 
 function App() {
 

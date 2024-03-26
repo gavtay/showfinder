@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faX } from '@fortawesome/free-solid-svg-icons';
-import { deleteprofile, showdeleteprofilebox } from './actions';
+import { deleteprofile, showdeleteprofilebox } from '../actions';
 import { useSelector, useDispatch } from 'react-redux'
 import './DeleteProfileBox.css'
 

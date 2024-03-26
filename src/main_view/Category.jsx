@@ -3,7 +3,7 @@ import RightButton from './RightButton.jsx'
 import LeftButton from './LeftButton.jsx';
 import Show from './Show.jsx';
 import './Category.css';
-import {data} from './moviedata.js';
+import {data} from '../moviedata.js';
 
 function Category({ title }) {
     const scrollPop = useSelector(state => state.scrollPop);

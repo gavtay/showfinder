@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { closedetails } from './actions/index.js';
+import { closedetails } from '../actions/index.js';
 import show_img_1000 from './cover_images/demonslayer_cover.jpg';
 import show_img_1001 from './cover_images/hxh_cover.jpg';
 import show_img_1002 from './cover_images/opm_cover.jpg';
@@ -10,7 +10,7 @@ import show_img_1006 from './cover_images/myhero_cover.jpg';
 import show_img_1007 from './cover_images/bunnygirl_cover.jpg';
 import show_img_1008 from './cover_images/kakegurui_cover.jpg';
 import show_img_1009 from './cover_images/naruto_cover.jpg';
-import {data} from './moviedata.js';
+import {data} from '../moviedata.js';
 import './ShowDetails.css';
 
 function ShowDetails() {

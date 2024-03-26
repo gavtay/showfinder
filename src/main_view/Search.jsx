@@ -1,7 +1,7 @@
 import Show from './Show.jsx';
 import { useSelector } from 'react-redux';
 import './Search.css';
-import {data} from './moviedata.js';
+import {data} from '../moviedata.js';
 
 function Showallshows() {
     const searchShows = useSelector(state => state.searchShows);

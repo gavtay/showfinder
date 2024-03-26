@@ -1,4 +1,4 @@
-import { scrollrightmost, scrollrightpop, scrollrightnew } from './actions';
+import { scrollrightmost, scrollrightpop, scrollrightnew } from '../actions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';

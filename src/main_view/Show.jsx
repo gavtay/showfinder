@@ -1,4 +1,4 @@
-import { showdetails } from './actions/index.js';
+import { showdetails } from '../actions/index.js';
 import { useDispatch } from 'react-redux';
 import show_img_1000 from './cover_images/demonslayer_cover.jpg';
 import show_img_1001 from './cover_images/hxh_cover.jpg';

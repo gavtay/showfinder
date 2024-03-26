@@ -1,4 +1,4 @@
-import { scrollleftpop, scrollleftmost, scrollleftnew } from './actions';
+import { scrollleftpop, scrollleftmost, scrollleftnew } from '../actions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretLeft } from '@fortawesome/free-solid-svg-icons';
 import { useSelector, useDispatch } from 'react-redux';
