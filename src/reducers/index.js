@@ -9,7 +9,7 @@ import searchShowsReducer from './searchShows';
 import showCreateProfileReducer from './showCreateProfile';
 import profileInputReducer from './profileInput';
 import showDeleteProfileBoxReducer from './showDeleteProfileBox';
-import deleteProfileNameReducer from './deleteprofilename';
+import deleteProfileNameReducer from './deleteProfileName';
 
 import { combineReducers } from 'redux';
 

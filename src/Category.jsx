@@ -152,15 +152,21 @@ function Category({ title }) {
                 <div id='category-header-container'>
                     <h2 id='category-header'>{title}</h2>
                 </div>
-                <div id='shows-container'>
-                    <LeftButton
-                        title={title}
-                    />
-                    {showFiveCategory()}
-                    <RightButton
-                        title={title}
-                        dataObj={dataObj}
-                    />
+                <div id='category-scroll-and-data'>
+                    <div className='scroll-btn-container'>
+                        <LeftButton
+                            title={title}
+                        />
+                    </div>
+                    <div id='shows-container'>
+                        {showFiveCategory()}
+                    </div>
+                    <div className='scroll-btn-container'>
+                        <RightButton
+                            title={title}
+                            dataObj={dataObj}
+                        />
+                    </div>
                 </div>
             </div>
         </>

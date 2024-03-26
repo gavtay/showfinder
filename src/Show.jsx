@@ -77,7 +77,7 @@ function Show({ showObj, title }) {
 
     return (
         <>
-            <div className='show-container'>
+            <div id='show-container'>
                 <button
                     id='show-btn'
                     onClick={toggleDetails}>

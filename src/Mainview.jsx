@@ -4,7 +4,6 @@ import Showallshows from './Search.jsx';
 import Category from './Category.jsx';
 
 function toggleView(showDet, searchShows) {
-
     if (searchShows) {
         if (showDet.length > 0) {
             return (
@@ -15,31 +14,24 @@ function toggleView(showDet, searchShows) {
         }
         return ( <Showallshows /> )
     }
-        
-        if (showDet.length > 0) {
-            return (
-                <>
-                    <ShowDetails />
-                </>
-            )
-        }
-        else {
-            return (
-                <>
-                    <Category title='Popular'/>
-                    <Category title='New'/>
-                    <Category title='Most Episodes'/>
-                </>
-            )
-        }
-        
-    return (
-        <>
-            <Category title='Popular'/>
-            <Category title='New'/>
-            <Category title='Most Episodes'/>
-        </>
-    )
+
+    if (showDet.length > 0) {
+        return (
+            <>
+                <ShowDetails />
+            </>
+        )
+    }
+
+    else {
+        return (
+            <>
+                <Category title='Popular'/>
+                <Category title='New'/>
+                <Category title='Most Episodes'/>
+            </>
+        )
+    }
 }
 
 function Mainview() {

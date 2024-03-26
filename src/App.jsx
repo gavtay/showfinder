@@ -24,10 +24,6 @@ function App() {
   return (
     <>
       {renderProfileOrShows()}
-      {/* <ProfileSelect /> */}
-
-      {/* <Header />
-      <Mainview /> */}
     </>
   );
 }

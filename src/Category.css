@@ -1,9 +1,6 @@
 #category-container {
-    height: 80%;
-    margin-top: 15vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
+    margin: 15vh 5vw 15vh 5vw;
+    height: 50vh;
     background-color: transparent;
 }
 #category-header-container{
@@ -13,6 +10,13 @@
 #category-header {
     margin-left: 2.5%;
     color: #262626;
+}
+#category-scroll-and-data {
+    display: flex;
+}
+.scroll-btn-container {
+    height: 100%;
+    margin-top: 10%;
 }
 #shows-container {
     display: flex;
