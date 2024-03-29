@@ -1,6 +1,7 @@
 #category-container {
     margin: 15vh 5vw 15vh 5vw;
     height: 50vh;
+    /* transform: translate(INDEXOFCAROUSEL * 100%); */
 }
 #category-header-container{
     display: flex;
